@@ -21,6 +21,22 @@ body{
     background: transparent;
 }
 
+#belt{
+    height: 97vmin;
+    width: 97vmin;
+    border-radius: 50%;
+    animation: spin 50s infinite linear;
+}
+
+@keyframes spin{
+    0%{
+        transform: rotate(0deg)
+    }
+    100%{
+        transform: rotate(360deg)   
+    }
+}
+
 #m-orbit{
     height: 8vmin;
     width: 8vmin;
