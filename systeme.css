@@ -1,0 +1,63 @@
+body{
+    background: black;
+    margin: 0;
+    padding: 0;
+    height: 200vmin;
+}
+
+.obect{
+    border-radius: 50%;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    transform: translateY(50vmin);
+}
+
+#sun
+{
+    height: 12vmin;
+    width: 12vmin;
+}
+#mercury
+{
+    height: 2vmin;
+    width: 2vmin;
+}
+#venus
+{
+    height: 3vmin;
+    width: 3vmin;
+}
+#earth
+{
+    height: 4vmin;
+    width: 4vmin;
+}
+#mars
+{
+    height: 3.5vmin;
+    width: 3.5vmin;
+}
+#jupiter
+{
+    height: 8vmin;
+    width: 8vmin;
+}
+#saturn
+{
+    height: 12vmin;
+    width: 12vmin;
+}
+#uranus
+{
+    height: 6vmin;
+    width: 6vmin;
+}
+#neptune
+{
+    height: 5vmin;
+    width: 5vmin;
+}
