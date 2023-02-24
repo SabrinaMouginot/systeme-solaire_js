@@ -15,10 +15,15 @@ body{
     bottom: 0;
     transform: translateY(50vmin);
 }
-.p-orbit{
+.p-orbit #m-orbit{
     border: 0.1vmin solid lightgray;
     opacity: 0.5;
     background: transparent;
+}
+
+#m-orbit{
+    height: 8vmin;
+    width: 8vmin;
 }
 
 .planet{

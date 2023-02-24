@@ -25,7 +25,7 @@ setInterval(()=>{
 
     moon.style.left=`${earthX() + (Math.cos(m_radians)*m_radius)}vmin`
     moon.style.top=`${earthY() + (Math.sin(m_radians)*m_radius)}vmin`
-    // m_radians += m_velocity*0.02    
+    m_radians += m_velocity*0.02    
 },1000/60)
 
 function earthX(){
