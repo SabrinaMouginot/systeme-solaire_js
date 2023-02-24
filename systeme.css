@@ -15,6 +15,11 @@ body{
     bottom: 0;
     transform: translateY(50vmin);
 }
+.p-orbit{
+    border: 0.1vmin solid lightgray;
+    opacity: 0.5;
+    background: transparent;
+}
 
 #sun
 {
