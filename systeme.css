@@ -21,11 +21,22 @@ body{
     background: transparent;
 }
 
+.planet{
+    z-index: 100;
+}
+
 #sun
 {
     height: 12vmin;
     width: 12vmin;
 }
+
+#moon{
+    height: 1vmin;
+    width: 1vmin;
+    background-color: white;
+}
+
 #mercury
 {
     height: 2vmin;
