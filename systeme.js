@@ -10,6 +10,7 @@ let m_radians = 0
 const m_velocity = 10
 
 const p_orbits = document.querySelectorAll('.p-orbit')
+const m_orbit = document.querySelector('#m-orbit')
 
 p_orbits.forEach((p_orbit,index)=>{
     p_orbit.style.height=`${p_radii[index]}vmin`
@@ -26,6 +27,9 @@ setInterval(()=>{
     moon.style.left=`${earthX() + (Math.cos(m_radians)*m_radius)}vmin`
     moon.style.top=`${earthY() + (Math.sin(m_radians)*m_radius)}vmin`
     m_radians += m_velocity*0.02    
+
+    m_orbit.style.left=`${earthX()}vmin`
+    m_orbit.style.top=`${earthY()}vmin`
 },1000/60)
 
 function earthX(){
