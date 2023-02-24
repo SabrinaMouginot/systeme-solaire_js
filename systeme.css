@@ -26,6 +26,7 @@ body{
     width: 97vmin;
     border-radius: 50%;
     animation: spin 50s infinite linear;
+    margin-top: 50vmin;
 }
 
 @keyframes spin{
