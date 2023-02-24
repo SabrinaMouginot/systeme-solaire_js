@@ -5,7 +5,7 @@ body{
     height: 200vmin;
 }
 
-.obect{
+.object{
     border-radius: 50%;
     position: absolute;
     margin: auto;
@@ -50,6 +50,7 @@ body{
 {
     height: 12vmin;
     width: 12vmin;
+    border-radius: 0%;
 }
 #uranus
 {
