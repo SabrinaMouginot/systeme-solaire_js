@@ -8,6 +8,6 @@ setInterval(()=>{
     planets.forEach((planet,index)=>{
         planet.style.left=`${Math.cos(p_radians[index])*p_radii[index]}vmin`
         planet.style.top=`${Math.sin(p_radians[index])*p_radii[index]}vmin`
-        p_radians[index] += p_velocities[index]
+        p_radians[index] += p_velocities[index]*0.02
     })
 },1000/60)
